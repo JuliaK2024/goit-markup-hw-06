@@ -29,13 +29,18 @@
             <li><a href="mailto:info@devstudio.com" class="tel-mail">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111" class="tel-mail">+11 (000) 111-11-11</a></li> 
         </ul>
-    </address>
+        </address>
+        <button type="button" class="burger-btn">
+            <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+        </button>
     </div>
 </header>
 
 <main>
         
-        <section class="section-one">
+        <section class="section-one hidden">
             <div class="container">
         <h1 class="h-one">Effective Solutions for Your Business</h1>
         <button type="button" class="button">Order Service</button>
@@ -44,7 +49,7 @@
         
 
         
-         <section class="section-two">
+         <section class="section-two hidden">
             <div class="container">
     <h2 class="visually-hidden">Our advantages</h2>
             <ul class="section-two-list-of-advantages">
@@ -54,6 +59,7 @@
                     <use href= ./images/icons.svg#icon-antenna></use>
                 </svg>
             </div>
+           
                     <h3 class="strategy-list">Strategy</h3>
                 <p class="strategy-description">Our goal is to identify the business
                     problem to walk away with the perfect and creative solution.
@@ -97,7 +103,7 @@
         </section>
     
         
-        <section class="section-three">
+        <section class="section-three hidden">
             <div class="container">
         <h2 class="our-team-title">Our Team</h2>
         <ul class="our-team-list">
@@ -299,7 +305,7 @@
        
 
        
-<section class="section-my-portfolio">
+<section class="section-my-portfolio hidden">
     <div class="container">
   <h2 class="our-portfolio">Our Portfolio</h2>
 <ul class="our-portfolio-list">
@@ -380,7 +386,7 @@
 </section>
 </main>
 
-<footer class="footer">
+<footer class="footer hidden">
     <div class="container footer-container">
     <div class="footer-logo-paragraph">
     <a  href="./index.html" class="logo footer-logo">Web<span class="studio-footer">Studio</span></a>
@@ -450,7 +456,7 @@
 
 
 <div class="backdrop is-open">
-<div class="modal visually-hidden ">
+<div class="modal hidden">
     <button type="button" class="modal-close-btn">
 <svg class="button-icon" width="8" height="8">
     <use href=./images/icons.svg#icon-close></use>
