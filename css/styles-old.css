@@ -148,6 +148,7 @@ ol {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0 188px;
@@ -221,9 +222,7 @@ ol {
     background-color: #404BBF;
 }
 
-.section-two {
-    padding: 120px 0;
-}
+
 
 .section-two-list-of-advantages {
     display: flex;
@@ -293,7 +292,6 @@ ol {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
 }
 
 .team-member {
@@ -337,7 +335,6 @@ ol {
     background-color: #4d5ae5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .social-link:hover {
