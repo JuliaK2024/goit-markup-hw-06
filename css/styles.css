@@ -773,6 +773,7 @@ img {
     overflow: hidden;
 }
 
+
 @media screen and (min-width: 768px) {
     .our-portfolio-list {
         gap: 24px;
@@ -945,6 +946,12 @@ img {
     margin: 0 auto;
 }
 
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -963,7 +970,7 @@ img {
     top: 50%;
     left: 50%;
     border-radius: 4px;
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -1108,6 +1115,15 @@ img {
     margin-right: 8px;
 }
 
+mobile-privacy-policy {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-mobile {
+    flex-shrink: 0;
+}
+
 .modal-check-text {
     display: inline-block;
     font-size: 12px;
@@ -1125,6 +1141,9 @@ img {
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
+
+.privacy-policy-span {}
+
 
 .textarea {
     margin-bottom: 16px
