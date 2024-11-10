@@ -149,6 +149,13 @@ ol {
 }
 
 
+
+@media screen and (min-width: 768px) {
+    .mobile-menu: {
+        display: none;
+    }
+}
+
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0 188px;
@@ -228,7 +235,6 @@ ol {
     display: flex;
     gap: 24px;
     align-items: center;
-
 }
 
 .strategy-item {
@@ -756,7 +762,6 @@ input:checked+label>span .subscribe {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-
 }
 
 .footer-form {
@@ -764,7 +769,6 @@ input:checked+label>span .subscribe {
     gap: 24px;
 }
 
-.footer-label {}
 
 .footer-input {
     border: 1px solid #fff;
